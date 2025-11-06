@@ -1,59 +1,48 @@
-@media (max-width: 600px){
-    body{
-        background-color: #ffffff;
-    }
+@media (max-width: 680px){
 
     .card{
-        display: inline-block;
+        display: block;
+        width:100%;
+        margin-bottom: 30px;
+        text-align: justify;
     }
 
-    .left{
-        float: left;
+    .card img{
+    display: inline;
+    margin-bottom: 10px;
+    width: 100%;
+    object-fit: cover;
     }
 
-    .right{
-        float: right;
-    }
-
-    .title-image{
-        width: 100px;
-        height: 150px;
-    }
-    footer{
-        clear: both;
-        text-align: right;
-    }
     .logo{
         clear: both;
         width: 50px;
     }
+
     h1{
-    font-family: "Momo Trust Display", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+    font-size: 3.5rem;
     clear: both;
+    text-align: center;
     }
+
     h2{
-    font-family: "Momo Trust Display", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    }
-    p{
-        font-family: 'Courier New', Courier, monospace;
-        width: 100px;
-    }
-    span{
-        color: palevioletred;
+    font-size: 1.5rem;
     }
 
 }
 
 body{
     background-color: #ffffff;
+    font-family: "Momo Trust Display", sans-serif;
+    font-style: normal;
+    margin: 50px 50px 0 50px;
 }
 
-.card{
+.card img{
     display: inline-block;
+}
+.card{
+    width: 45%;
 }
 
 .left{
@@ -65,6 +54,8 @@ body{
 }
 
 .title-image{
+    float: left;
+    margin-right: 50px;
     width: 200px;
     height: 250px;
 }
@@ -77,21 +68,20 @@ footer{
     width: 100px;
 }
 h1{
-  font-family: "Momo Trust Display", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+  
+  font-size: 5rem;
   clear: both;
 }
 h2{
-  font-family: "Momo Trust Display", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  
+  font-weight: 1.5rem;
+  
 }
 p{
     font-family: 'Courier New', Courier, monospace;
-    width: 500px;
 }
 span{
     color: palevioletred;
 }
+
 
